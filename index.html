@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baljits Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(18, 18, 62);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav li a:hover {
+        color: rgb(170, 107, 228);
+        font-size: 1.03rem;
+      }
+
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+
+      .firstsection > div {
+        width: 33%;
+      }
+
+      .leftsection {
+        font-size: 4rem;
+      }
+
+      .leftsection .button {
+        padding: 50px 0;
+      }
+
+      .leftsection .btn {
+        font-size: 20px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        background-color: #1e2167;
+        cursor: pointer;
+        padding: 12px;
+      }
+
+      .rightsection img {
+        width: 85%;
+      }
+
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+
+      .text-grey {
+        color: grey;
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        min-height: 85vh;
+      }
+
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondsection .box {
+        background-color: white;
+        width: 70vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondsection .vertical {
+        height: 96px;
+        width: 1px;
+        margin: 0 210px;
+        background-color: white;
+      }
+
+      .image-top {
+        width: 30px;
+        position: relative;
+        top: -36px;
+        left: -15px;
+      }
+
+      .image-topright {
+        width: 30px;
+        position: relative;
+        top: -36px;
+        left: -12px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 180px;
+      }
+
+      .vertical-disc {
+        position: relative;
+        top: 86px;
+        color: grey;
+        width: 170px;
+        font-size: 9px;
+      }
+
+      footer {
+        background-color: #0e0e1a;
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer > div {
+        width: 223px;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: grey;
+        padding: 12px 0;
+      }
+
+      a .btn {
+        list-style: none;
+      }
+
+      .vertical-disc ul li{
+        font-size: 10px;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Baljit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/"> Home </a></li>
+            <li><a href="/">About </a></li>
+            <li><a href="/">Services </a></li>
+            <li>
+              <a
+                href="https://github.com/Baljitwork?tab=repositories"
+                target="_blank"
+                >Projects</a
+              >
+            </li>
+            <li><a href="/">Contact Me </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My Name is <span class="purple"> Baljit Singh </span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <!-- <button class="btn" >Download Resume</button>
+            <button class="btn">Visit Github</button> -->
+
+            <a
+              class="btn"
+              href="https://docs.google.com/document/d/1lL5WJGRk-mOnHeJ891HKaAzsA3KrTgH2/edit?usp=drive_link&ouid=110599379665513528897&rtpof=true&sd=true"
+              target="_blank"
+              >Download Resume</a
+            >
+            <a class="btn" href="https://github.com/Baljitwork" target="_blank"
+              >Visit GitHub</a
+            >
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey"> What I have done so far </span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt=" " />
+            <div class="vertical-title">
+              Software Sale Executive (October 2023 - May 2024)
+            </div>
+
+            <div class="vertical-disc">
+              <!-- 1.Demonstrated proficiency in integrating hardware and software by
+              interfacing an Arduino Uno with a joystick module, enabling
+              precise servo motor control. 2 Enhanced software development
+              expertise through the implementation of image processing
+              techniques and algorithmic optimizations. 3 Engineered an
+              automated solution for real-time face identification utilizing
+              Arduino Uno and OpenCV, significantly boosting operational
+              efficiency. 4 Pioneered innovative algorithms for the real-time
+              control of robotic end-effectors, showcasing advanced technical
+              acumen and problem-solving abilities. -->
+              <ul>
+                <li>
+                  Managed comprehensive audit data transmission to HP offices,
+                  ensuring seamless coordination of vital information. This
+                  included overseeing 7 bids across diverse industries such as
+                  Imperial Auto Industries, SML Isuzu, HPSEDC, Excise, and more.
+                </li>
+                <li>
+                  Orchestrated the collation and submission of essential
+                  documents, encompassing sales invoices, customer purchase
+                  orders (POs), distributor bills, and delivery proofs for
+                  dispatched products. This meticulous approach guaranteed the
+                  accuracy and completeness of all audit records.
+                </li>
+                <li>
+                  Spearheaded as Regional Distributor for HP Carepack for PCs,
+                  meticulously curating monthly updated pricing lists to empower
+                  reseller partners. Proactively addressed inquiries from
+                  end-users and resellers, ensuring seamless operations and
+                  unparalleled client satisfaction.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt=" " />
+            <div class="vertical-title">
+              Technical Research and Development Intern (January 2023 - June
+              2023)
+            </div>
+
+            <div class="vertical-disc">
+              <!-- 1.Demonstrated proficiency in integrating hardware and software by
+              interfacing an Arduino Uno with a joystick module, enabling
+              precise servo motor control. 2 Enhanced software development
+              expertise through the implementation of image processing
+              techniques and algorithmic optimizations. 3 Engineered an
+              automated solution for real-time face identification utilizing
+              Arduino Uno and OpenCV, significantly boosting operational
+              efficiency. 4 Pioneered innovative algorithms for the real-time
+              control of robotic end-effectors, showcasing advanced technical
+              acumen and problem-solving abilities. -->
+
+              <ul>
+                <li>
+                  Demonstrated proficiency in integrating hardware and software
+                  by interfacing an Arduino Uno with a joystick module, enabling
+                  precise servo motor control.
+                </li>
+                <li>
+                  Enhanced software development expertise through the
+                  implementation of image processing techniques and algorithmic
+                  optimizations.
+                </li>
+                <li>
+                  Engineered an automated solution for real-time face
+                  identification utilizing Arduino Uno and OpenCV, significantly
+                  boosting operational efficiency.
+                </li>
+                <li>
+                  Pioneered innovative algorithms for the real-time control of
+                  robotic end-effectors, showcasing advanced technical acumen
+                  and problem-solving abilities.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-topright" src="mobdev.png" alt=" " />
+            <div class="vertical-title">
+              Mobile Application (July 2022 - August 2022)
+            </div>
+
+            <div class="vertical-disc">
+              <!-- 1.Demonstrated proficiency in integrating hardware and software by
+              interfacing an Arduino Uno with a joystick module, enabling
+              precise servo motor control. 2 Enhanced software development
+              expertise through the implementation of image processing
+              techniques and algorithmic optimizations. 3 Engineered an
+              automated solution for real-time face identification utilizing
+              Arduino Uno and OpenCV, significantly boosting operational
+              efficiency. 4 Pioneered innovative algorithms for the real-time
+              control of robotic end-effectors, showcasing advanced technical
+              acumen and problem-solving abilities. -->
+
+              <ul>
+                <li>
+                  Explored fundamental concepts of object-oriented programming
+                  (OOP) in Java, laying the groundwork for proficient
+                  application Development.
+                </li>
+                <li>
+                  Spearheaded the development of a chat application leveraging
+                  Firebase as the backend-as-a-service platform, gaining
+                  comprehensive insight into algorithm implementation in Android
+                  and machine learning.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Baljit's Developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <!-- <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+          </ul> -->
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        Copyrights &#169; Baljitportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Creative Thinker",
+          "Lifelong Learner",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
